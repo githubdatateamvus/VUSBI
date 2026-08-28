@@ -20,7 +20,7 @@
           "AuthenticationKind": "OAuth2",
           "kind": "SQL",
           "path": "yvpqbupzx7kufapfd474wcexte-5bh5o7llmmnuta22i6u45pycty.datawarehouse.fabric.microsoft.com;VUSDWHPRO",
-          "Expires": "Thu, 27 Aug 2026 05:44:51 GMT"
+          "Expires": "Fri, 28 Aug 2026 09:26:41 GMT"
         }
       }
     ],
@@ -14105,7 +14105,7 @@
           },
           {
             "name": "Dur Lead To Show (D)",
-            "dataType": "double",
+            "dataType": "int64",
             "sourceColumn": "Dur_Lead_To_Show (D)"
           },
           {
@@ -14350,6 +14350,11 @@
             "name": "Study Objective",
             "dataType": "string",
             "sourceColumn": "STUDY_OBJECTIVE"
+          },
+          {
+            "name": "Owner By",
+            "dataType": "string",
+            "sourceColumn": "OWNER_BY"
           }
         ],
         "partitions": [
@@ -32549,6 +32554,11 @@
             "name": "FullYear Actual Student",
             "dataType": "int64",
             "sourceColumn": "FullYear Actual Student"
+          },
+          {
+            "name": "Fabric_Test_Column",
+            "dataType": "string",
+            "sourceColumn": "Fabric_Test_Column"
           }
         ],
         "partitions": [
@@ -32560,8 +32570,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_BUDGET_MANAGEMENT_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_BUDGET_MANAGEMENT_F\"]}[Data]",
+                "    DWH_VW_BUDGET_MANAGEMENT_F = Source{[Schema=\"DWH\",Item=\"VW_BUDGET_MANAGEMENT_F\"]}[Data]",
                 "in",
                 "    DWH_VW_BUDGET_MANAGEMENT_F"
               ]
@@ -50376,6 +50385,9 @@
               },
               {
                 "name": "FullYear Actual Student"
+              },
+              {
+                "name": "Fabric_Test_Column"
               }
             ],
             "measures": [
@@ -62116,6 +62128,14 @@
                 "name": "OVI vs Target Multiplier"
               }
             ]
+          },
+          {
+            "name": "Budget Management",
+            "columns": [
+              {
+                "name": "Fabric_Test_Column"
+              }
+            ]
           }
         ]
       },
@@ -69149,6 +69169,14 @@
               },
               {
                 "name": "OVI vs Target Multiplier"
+              }
+            ]
+          },
+          {
+            "name": "Budget Management",
+            "columns": [
+              {
+                "name": "Fabric_Test_Column"
               }
             ]
           }
@@ -78163,6 +78191,14 @@
               },
               {
                 "name": "ASA Branch Key"
+              }
+            ]
+          },
+          {
+            "name": "Budget Management",
+            "columns": [
+              {
+                "name": "Fabric_Test_Column"
               }
             ]
           }
