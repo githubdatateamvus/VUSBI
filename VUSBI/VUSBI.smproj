@@ -12,7 +12,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Development' ">
     <OutputPath>bin\</OutputPath>
-    <DeploymentServerName>powerbi://api.powerbi.com/v1.0/myorg/VUS_Validate</DeploymentServerName>
+    <DeploymentServerName>powerbi://api.powerbi.com/v1.0/myorg/VUS_Semantic_Model_PROD</DeploymentServerName>
     <DeploymentServerEdition>Developer</DeploymentServerEdition>
     <DeploymentServerVersion>Unknown</DeploymentServerVersion>
     <DeploymentServerDatabase>VUSBI</DeploymentServerDatabase>
