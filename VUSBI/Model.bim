@@ -21152,8 +21152,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_W_CALL_LOG = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_CALL_LOG\"]}[Data]",
+                "    DWH_W_CALL_LOG = Source{[Schema=\"DWH\",Item=\"VW_CALL_LOG\"]}[Data]",
                 "in",
                 "    DWH_W_CALL_LOG"
               ]
@@ -21412,8 +21411,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_USERS_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_USERS_D\"]}[Data]",
+                "    DWH_VW_USERS_D = Source{[Schema=\"DWH\",Item=\"VW_USERS_D\"]}[Data]",
                 "in",
                 "    DWH_VW_USERS_D"
               ]
@@ -21519,8 +21517,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_USERS_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_USERS_D\"]}[Data]",
+                "    DWH_VW_USERS_D = Source{[Schema=\"DWH\",Item=\"VW_USERS_D\"]}[Data]",
                 "in",
                 "    DWH_VW_USERS_D"
               ]
@@ -22254,8 +22251,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_ASA_LIST_STUDENT_OFFTRACK_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_ASA_LIST_STUDENT_OFFTRACK_F\"]}[Data]",
+                "    DWH_VW_ASA_LIST_STUDENT_OFFTRACK_F = Source{[Schema=\"DWH\",Item=\"VW_ASA_LIST_STUDENT_OFFTRACK_F\"]}[Data]",
                 "in",
                 "    DWH_VW_ASA_LIST_STUDENT_OFFTRACK_F"
               ]
@@ -22741,8 +22737,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_W_PANCAKE_CHAT_ZALO = VUSDWHPRO{[Schema=\"DWH\",Item=\"W_PANCAKE_CHAT_ZALO\"]}[Data]",
+                "    DWH_W_PANCAKE_CHAT_ZALO = Source{[Schema=\"DWH\",Item=\"W_PANCAKE_CHAT_ZALO\"]}[Data]",
                 "in",
                 "    DWH_W_PANCAKE_CHAT_ZALO"
               ]
@@ -22893,8 +22888,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_ASA_OFFTRACK_SUMMARY_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_ASA_OFFTRACK_SUMMARY_F\"]}[Data]",
+                "    DWH_VW_ASA_OFFTRACK_SUMMARY_F = Source{[Schema=\"DWH\",Item=\"VW_ASA_OFFTRACK_SUMMARY_F\"]}[Data]",
                 "in",
                 "    DWH_VW_ASA_OFFTRACK_SUMMARY_F"
               ]
@@ -23167,8 +23161,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_W_CORE_EDU_LEAD_DUP_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_CORE_EDU_LEAD_DUP_F\"]}[Data]",
+                "    DWH_W_CORE_EDU_LEAD_DUP_F = Source{[Schema=\"DWH\",Item=\"VW_CORE_EDU_LEAD_DUP_F\"]}[Data]",
                 "in",
                 "    DWH_W_CORE_EDU_LEAD_DUP_F"
               ]
@@ -23345,8 +23338,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_ASA_OFFTRACK_REENROLLMENT_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_ASA_OFFTRACK_REENROLLMENT_F\"]}[Data]",
+                "    DWH_VW_ASA_OFFTRACK_REENROLLMENT_F = Source{[Schema=\"DWH\",Item=\"VW_ASA_OFFTRACK_REENROLLMENT_F\"]}[Data]",
                 "in",
                 "    DWH_VW_ASA_OFFTRACK_REENROLLMENT_F"
               ]
@@ -23551,8 +23543,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_INVOICE_PAYMENT_ALL_DISCOUNT_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_INVOICE_PAYMENT_ALL_DISCOUNT_F\"]}[Data]",
+                "    DWH_VW_INVOICE_PAYMENT_ALL_DISCOUNT_F = Source{[Schema=\"DWH\",Item=\"VW_INVOICE_PAYMENT_ALL_DISCOUNT_F\"]}[Data]",
                 "in",
                 "    DWH_VW_INVOICE_PAYMENT_ALL_DISCOUNT_F"
               ]
@@ -24497,8 +24488,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_ASA_OFFTRACK_COMPARE_STUDENT_SCORE_SK_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_ASA_OFFTRACK_COMPARE_STUDENT_SCORE_SK_F\"]}[Data]",
+                "    DWH_VW_ASA_OFFTRACK_COMPARE_STUDENT_SCORE_SK_F = Source{[Schema=\"DWH\",Item=\"VW_ASA_OFFTRACK_COMPARE_STUDENT_SCORE_SK_F\"]}[Data]",
                 "in",
                 "    DWH_VW_ASA_OFFTRACK_COMPARE_STUDENT_SCORE_SK_F"
               ]
@@ -24862,8 +24852,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_OVERVIEW_OD_TRACKING_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_OVERVIEW_OD_TRACKING_F\"]}[Data]",
+                "    DWH_VW_OVERVIEW_OD_TRACKING_F = Source{[Schema=\"DWH\",Item=\"VW_OVERVIEW_OD_TRACKING_F\"]}[Data]",
                 "in",
                 "    DWH_VW_OVERVIEW_OD_TRACKING_F"
               ]
@@ -25184,8 +25173,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_OFFTRACK = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_OFFTRACK\"]}[Data]",
+                "    DWH_VW_OFFTRACK = Source{[Schema=\"DWH\",Item=\"VW_OFFTRACK\"]}[Data]",
                 "in",
                 "    DWH_VW_OFFTRACK"
               ]
@@ -25461,8 +25449,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_STUDENT_LOGIN_OVI_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_STUDENT_LOGIN_OVI_D\"]}[Data]",
+                "    DWH_VW_STUDENT_LOGIN_OVI_D = Source{[Schema=\"DWH\",Item=\"VW_STUDENT_LOGIN_OVI_D\"]}[Data]",
                 "in",
                 "    DWH_VW_STUDENT_LOGIN_OVI_D"
               ]
@@ -25655,8 +25642,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_FEEDBACK_PROCESS_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_FEEDBACK_PROCESS_F\"]}[Data]",
+                "    DWH_VW_FEEDBACK_PROCESS_F = Source{[Schema=\"DWH\",Item=\"VW_FEEDBACK_PROCESS_F\"]}[Data]",
                 "in",
                 "    DWH_VW_FEEDBACK_PROCESS_F"
               ]
@@ -25845,8 +25831,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_CLASS_CONVERSION = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_CLASS_CONVERSION\"]}[Data]",
+                "    DWH_VW_CLASS_CONVERSION = Source{[Schema=\"DWH\",Item=\"VW_CLASS_CONVERSION\"]}[Data]",
                 "in",
                 "    DWH_VW_CLASS_CONVERSION"
               ]
@@ -26000,8 +25985,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_SURVEY_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_SURVEY_F\"]}[Data]",
+                "    DWH_VW_SURVEY_F = Source{[Schema=\"DWH\",Item=\"VW_SURVEY_F\"]}[Data]",
                 "in",
                 "    DWH_VW_SURVEY_F"
               ]
@@ -26594,8 +26578,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_ASA_LEAD_POOL_RECYCLE_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_ASA_LEAD_POOL_RECYCLE_F\"]}[Data]",
+                "    DWH_VW_ASA_LEAD_POOL_RECYCLE_F = Source{[Schema=\"DWH\",Item=\"VW_ASA_LEAD_POOL_RECYCLE_F\"]}[Data]",
                 "in",
                 "    DWH_VW_ASA_LEAD_POOL_RECYCLE_F"
               ]
@@ -26729,8 +26712,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    #\"TMP_AXIS DATA\" = VUSDWHPRO{[Schema=\"TMP\",Item=\"AXIS DATA\"]}[Data]",
+                "    #\"TMP_AXIS DATA\" = Source{[Schema=\"TMP\",Item=\"AXIS DATA\"]}[Data]",
                 "in",
                 "    #\"TMP_AXIS DATA\""
               ]
@@ -27738,8 +27720,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_SALARY_MONTH_YEAR_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_SALARY_MONTH_YEAR_F\"]}[Data]",
+                "    DWH_VW_SALARY_MONTH_YEAR_F = Source{[Schema=\"DWH\",Item=\"VW_SALARY_MONTH_YEAR_F\"]}[Data]",
                 "in",
                 "    DWH_VW_SALARY_MONTH_YEAR_F"
               ]
@@ -28055,8 +28036,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_APPLICATION_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_APPLICATION_F\"]}[Data]",
+                "    DWH_VW_HRT_APPLICATION_F = Source{[Schema=\"DWH\",Item=\"VW_HRT_APPLICATION_F\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_APPLICATION_F"
               ]
@@ -28735,8 +28715,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_RECRUITMENT_PROJECT_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_RECRUITMENT_PROJECT_F\"]}[Data]",
+                "    DWH_VW_HRT_RECRUITMENT_PROJECT_F = Source{[Schema=\"DWH\",Item=\"VW_HRT_RECRUITMENT_PROJECT_F\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_RECRUITMENT_PROJECT_F"
               ]
@@ -29440,8 +29419,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_ALL_WORKER_ACTIONS_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_ALL_WORKER_ACTIONS_F\"]}[Data]",
+                "    DWH_VW_HRT_ALL_WORKER_ACTIONS_F = Source{[Schema=\"DWH\",Item=\"VW_HRT_ALL_WORKER_ACTIONS_F\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_ALL_WORKER_ACTIONS_F"
               ]
@@ -29840,8 +29818,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_RETENTION_RATE_OPENING_PLAN_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_RETENTION_RATE_OPENING_PLAN_F\"]}[Data]",
+                "    DWH_VW_RETENTION_RATE_OPENING_PLAN_F = Source{[Schema=\"DWH\",Item=\"VW_RETENTION_RATE_OPENING_PLAN_F\"]}[Data]",
                 "in",
                 "    DWH_VW_RETENTION_RATE_OPENING_PLAN_F"
               ]
@@ -30095,8 +30072,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_TQM_CLASS_URGENCY_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_TQM_CLASS_URGENCY_F\"]}[Data]",
+                "    DWH_VW_TQM_CLASS_URGENCY_F = Source{[Schema=\"DWH\",Item=\"VW_TQM_CLASS_URGENCY_F\"]}[Data]",
                 "in",
                 "    DWH_VW_TQM_CLASS_URGENCY_F"
               ]
@@ -30390,8 +30366,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_TEACHING_HOURS_DETAIL_MONTH_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_TEACHING_HOURS_DETAIL_MONTH_F\"]}[Data]",
+                "    DWH_VW_TEACHING_HOURS_DETAIL_MONTH_F = Source{[Schema=\"DWH\",Item=\"VW_TEACHING_HOURS_DETAIL_MONTH_F\"]}[Data]",
                 "in",
                 "    DWH_VW_TEACHING_HOURS_DETAIL_MONTH_F"
               ]
@@ -31275,8 +31250,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_TQM_AVERAGE_TEACHING_HOURS_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_TQM_AVERAGE_TEACHING_HOURS_F\"]}[Data]",
+                "    DWH_VW_TQM_AVERAGE_TEACHING_HOURS_F = Source{[Schema=\"DWH\",Item=\"VW_TQM_AVERAGE_TEACHING_HOURS_F\"]}[Data]",
                 "in",
                 "    DWH_VW_TQM_AVERAGE_TEACHING_HOURS_F"
               ]
@@ -31406,8 +31380,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_APPLICATION_LOCATION_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_APPLICATION_LOCATION_F\"]}[Data]",
+                "    DWH_VW_HRT_APPLICATION_LOCATION_F = Source{[Schema=\"DWH\",Item=\"VW_HRT_APPLICATION_LOCATION_F\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_APPLICATION_LOCATION_F"
               ]
@@ -31618,8 +31591,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_TEACHER_SHARE_REQUEST_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_TEACHER_SHARE_REQUEST_F\"]}[Data]",
+                "    DWH_VW_TEACHER_SHARE_REQUEST_F = Source{[Schema=\"DWH\",Item=\"VW_TEACHER_SHARE_REQUEST_F\"]}[Data]",
                 "in",
                 "    DWH_VW_TEACHER_SHARE_REQUEST_F"
               ]
@@ -31843,8 +31815,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_STUDENT_SURVEY_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_STUDENT_SURVEY_F\"]}[Data]",
+                "    DWH_VW_STUDENT_SURVEY_F = Source{[Schema=\"DWH\",Item=\"VW_STUDENT_SURVEY_F\"]}[Data]",
                 "in",
                 "    DWH_VW_STUDENT_SURVEY_F"
               ]
@@ -32386,8 +32357,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_GROUPS_TIME_SLOT_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_GROUPS_TIME_SLOT_D\"]}[Data]",
+                "    DWH_VW_GROUPS_TIME_SLOT_D = Source{[Schema=\"DWH\",Item=\"VW_GROUPS_TIME_SLOT_D\"]}[Data]",
                 "in",
                 "    DWH_VW_GROUPS_TIME_SLOT_D"
               ]
@@ -33371,8 +33341,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_DATE_SLICER = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_DATE_SLICER\"]}[Data]",
+                "    DWH_VW_DATE_SLICER = Source{[Schema=\"DWH\",Item=\"VW_DATE_SLICER\"]}[Data]",
                 "in",
                 "    DWH_VW_DATE_SLICER"
               ]
@@ -33413,8 +33382,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_GROUPS_STANDARD_TIME_SLOT_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_GROUPS_STANDARD_TIME_SLOT_D\"]}[Data]",
+                "    DWH_VW_GROUPS_STANDARD_TIME_SLOT_D = Source{[Schema=\"DWH\",Item=\"VW_GROUPS_STANDARD_TIME_SLOT_D\"]}[Data]",
                 "in",
                 "    DWH_VW_GROUPS_STANDARD_TIME_SLOT_D"
               ]
@@ -33630,8 +33598,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_BY_CLASS_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_TQM_RETENTION_RATE_FOR_TEACHER_BY_CLASS_F\"]}[Data]",
+                "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_BY_CLASS_F = Source{[Schema=\"DWH\",Item=\"VW_TQM_RETENTION_RATE_FOR_TEACHER_BY_CLASS_F\"]}[Data]",
                 "in",
                 "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_BY_CLASS_F"
               ]
@@ -33861,8 +33828,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_TQM_RETENTION_RATE_FOR_TEACHER_F\"]}[Data]",
+                "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_F = Source{[Schema=\"DWH\",Item=\"VW_TQM_RETENTION_RATE_FOR_TEACHER_F\"]}[Data]",
                 "in",
                 "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_F"
               ]
@@ -34109,8 +34075,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_TQM_RETENTION_RATE_FOR_TEACHER_F\"]}[Data]",
+                "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_F = Source{[Schema=\"DWH\",Item=\"VW_TQM_RETENTION_RATE_FOR_TEACHER_F\"]}[Data]",
                 "in",
                 "    DWH_VW_TQM_RETENTION_RATE_FOR_TEACHER_F"
               ]
@@ -34251,8 +34216,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_LEAD_SCORING_CATEGORY_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_LEAD_SCORING_CATEGORY_D\"]}[Data]",
+                "    DWH_VW_LEAD_SCORING_CATEGORY_D = Source{[Schema=\"DWH\",Item=\"VW_LEAD_SCORING_CATEGORY_D\"]}[Data]",
                 "in",
                 "    DWH_VW_LEAD_SCORING_CATEGORY_D"
               ]
@@ -34313,8 +34277,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_STUDENT_COST_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_STUDENT_COST_F\"]}[Data]",
+                "    DWH_VW_STUDENT_COST_F = Source{[Schema=\"DWH\",Item=\"VW_STUDENT_COST_F\"]}[Data]",
                 "in",
                 "    DWH_VW_STUDENT_COST_F"
               ]
@@ -34407,8 +34370,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_APPLICATION_EDUCATION_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_APPLICATION_EDUCATION_F\"]}[Data]",
+                "    DWH_VW_HRT_APPLICATION_EDUCATION_F = Source{[Schema=\"DWH\",Item=\"VW_HRT_APPLICATION_EDUCATION_F\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_APPLICATION_EDUCATION_F"
               ]
@@ -34461,8 +34423,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    FND_MAP_CAMPUS_TIER_CITY = VUSDWHPRO{[Schema=\"FND\",Item=\"MAP_CAMPUS_TIER_CITY_HRT\"]}[Data]",
+                "    FND_MAP_CAMPUS_TIER_CITY = Source{[Schema=\"FND\",Item=\"MAP_CAMPUS_TIER_CITY_HRT\"]}[Data]",
                 "in",
                 "    FND_MAP_CAMPUS_TIER_CITY"
               ]
@@ -34749,8 +34710,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    FND_TEACHING_SALARY_FIN = VUSDWHPRO{[Schema=\"FND\",Item=\"TEACHING_SALARY_FIN_HRT\"]}[Data]",
+                "    FND_TEACHING_SALARY_FIN = Source{[Schema=\"FND\",Item=\"TEACHING_SALARY_FIN_HRT\"]}[Data]",
                 "in",
                 "    FND_TEACHING_SALARY_FIN"
               ]
@@ -34987,8 +34947,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    FND_TEACHING_COST_FIN_HRT = VUSDWHPRO{[Schema=\"FND\",Item=\"TEACHING_COST_FIN_HRT\"]}[Data]",
+                "    FND_TEACHING_COST_FIN_HRT = Source{[Schema=\"FND\",Item=\"TEACHING_COST_FIN_HRT\"]}[Data]",
                 "in",
                 "    FND_TEACHING_COST_FIN_HRT"
               ]
@@ -35054,8 +35013,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_RECRUITMENT_MEDIA_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_RECRUITMENT_MEDIA_D\"]}[Data]",
+                "    DWH_VW_RECRUITMENT_MEDIA_D = Source{[Schema=\"DWH\",Item=\"VW_RECRUITMENT_MEDIA_D\"]}[Data]",
                 "in",
                 "    DWH_VW_RECRUITMENT_MEDIA_D"
               ]
@@ -35246,8 +35204,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_RECRUITMENT_COST_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_RECRUITMENT_COST_F\"]}[Data]",
+                "    DWH_VW_HRT_RECRUITMENT_COST_F = Source{[Schema=\"DWH\",Item=\"VW_HRT_RECRUITMENT_COST_F\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_RECRUITMENT_COST_F"
               ]
@@ -35552,8 +35509,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_TEACHER_TYPE_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_TEACHER_TYPE_D\"]}[Data]",
+                "    DWH_VW_TEACHER_TYPE_D = Source{[Schema=\"DWH\",Item=\"VW_TEACHER_TYPE_D\"]}[Data]",
                 "in",
                 "    DWH_VW_TEACHER_TYPE_D"
               ]
@@ -35809,8 +35765,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_FACT_OVI_NOTIFICATION = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_FACT_OVI_NOTIFICATION\"]}[Data]",
+                "    DWH_VW_FACT_OVI_NOTIFICATION = Source{[Schema=\"DWH\",Item=\"VW_FACT_OVI_NOTIFICATION\"]}[Data]",
                 "in",
                 "    DWH_VW_FACT_OVI_NOTIFICATION"
               ]
@@ -36275,8 +36230,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_PERSON_IN_CHARGE_D = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_PERSON_IN_CHARGE_D\"]}[Data]",
+                "    DWH_VW_HRT_PERSON_IN_CHARGE_D = Source{[Schema=\"DWH\",Item=\"VW_HRT_PERSON_IN_CHARGE_D\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_PERSON_IN_CHARGE_D"
               ]
@@ -36489,8 +36443,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_RECRUITMENT_KPI_RULES_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_RECRUITMENT_KPI_RULES_F\"]}[Data]",
+                "    DWH_VW_HRT_RECRUITMENT_KPI_RULES_F = Source{[Schema=\"DWH\",Item=\"VW_HRT_RECRUITMENT_KPI_RULES_F\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_RECRUITMENT_KPI_RULES_F"
               ]
@@ -36745,8 +36698,7 @@
               "expression": [
                 "let",
                 "    Source = #\"Warehouse-VUSDWHPRO\",",
-                "    VUSDWHPRO = Source{[Name=\"VUSDWHPRO\"]}[Data],",
-                "    DWH_VW_HRT_BUDGET_CLASSIFICATION_RULES_F = VUSDWHPRO{[Schema=\"DWH\",Item=\"VW_HRT_BUDGET_CLASSIFICATION_RULES_F\"]}[Data]",
+                "    DWH_VW_HRT_BUDGET_CLASSIFICATION_RULES_F = Source{[Schema=\"DWH\",Item=\"VW_HRT_BUDGET_CLASSIFICATION_RULES_F\"]}[Data]",
                 "in",
                 "    DWH_VW_HRT_BUDGET_CLASSIFICATION_RULES_F"
               ]
