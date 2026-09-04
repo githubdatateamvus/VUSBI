@@ -24,7 +24,7 @@
     <DeploymentOptionQueryImpersonation>Default</DeploymentOptionQueryImpersonation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == '' ">
-    <DeploymentServerName>asazure://southeastasia.asazure.windows.net/vusdwhasprod</DeploymentServerName>
+    <DeploymentServerName>asazure://southeastasia.asazure.windows.net/vusaaslab</DeploymentServerName>
     <DeploymentServerEdition>Developer</DeploymentServerEdition>
     <DeploymentServerVersion>Unknown</DeploymentServerVersion>
     <DeploymentServerDatabase>VUSBI</DeploymentServerDatabase>
